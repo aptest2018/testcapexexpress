@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include capexexpress *.css
+recursive-include capexexpress *.csv
+recursive-include capexexpress *.html
+recursive-include capexexpress *.ico
+recursive-include capexexpress *.js
+recursive-include capexexpress *.json
+recursive-include capexexpress *.md
+recursive-include capexexpress *.png
+recursive-include capexexpress *.py
+recursive-include capexexpress *.svg
+recursive-include capexexpress *.txt
+recursive-exclude capexexpress *.pyc
